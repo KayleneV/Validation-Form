@@ -1,0 +1,12 @@
+.container{
+    display: table;
+}
+
+body{
+    align-content: center;
+}
+
+div{
+    background-color: aqua;
+}
+
