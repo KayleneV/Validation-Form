@@ -1,126 +1,118 @@
-<!DOCTYPE html>
-
-<html>
+<!doctype html>
+<html lang=en>
 
 <head>
+    <meta charset=utf-8>
+    <link rel="stylesheet" type="text/css" href="css/animation.css">
     <meta charset="utf-8">
-    <meta http-equiv="XA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <title>Validation Form</title>
-
-    <link rel="stylesheet" href="Form.css">
-
 </head>
 
 <body>
+    <form action="#0" <div>
+        <label for=Firstname> User ID : </lable>
+            <input type="text" name="fistname" placeholder="Required length of 7 to 12 characters" required>
+            </div>
 
-    <br>
-    <h1 id="header"> Registration Form</h1>
-    <br>
+            <br>
 
-    <form action=" method=get" class="Registration Form">
-        
-        <div class="Registration Form">
-            <label for="User ID"> User ID</label>
-            <input type="User ID" name="User ID" id="User ID" placeholder="Required, length of 6 to 12 characters" required>
-        </div>
+            <br>
 
-        <br>
+            <div>
+                <label for="Password"> Password : </label>
+                <input type="text" name="Password" placeholder="Must contain letters and numbers" required>
+            </div>
 
-        <div>
-            <label for="Password"> Password </label>
-            <input type="Password" name="Password" id="Password" placeholder="Required, must be a valid password" required>
-        </div> 
+            <br>
 
-        <br>
+            <div>
+                <label for="Firstname"> Firstname : </label>
+                <input type="Firstname" name="Firstname" id="Firstname"
+                    placeholder="Required length of 7 to 12 characters" required>
+            </div>
 
-        <div>
-            <label for="Firstname"> Firstname</label>
-            <input type="Firstname" name="Firstname" id="Firstname" placeholder="Required, length of 6 to 12 characters" required>
-        </div>
+            <br>
 
-        <br>
+            <div>
+                <label for="Lastname"> Lastname : </label>
+                <input type="text" name="name" id="lastname" placeholder="Required, letters only" required>
+            </div>
 
-        <div>
-            <label for="Lastname"> Lastname </label>
-            <input type="Lastname" name="Lastname" id="Lastname" placeholder="Required, length of 6 to 12 characters" required>
-        </div>
+            <br>
 
-        <br>
 
-        <div>
-        <label for="Addres"> Addres</label>
-        <input type="Addres" name="Addres" id="Addres" placeholder="Optional" required>
-        </div>
+            <div>
+                <label for="Address"> Address : </label>
+                <input type="Address" name="Address" id="Address" placeholder="Optional" required>
+            </div>
 
-    <br>
+            <br>
 
-    <div>
-        <label for="Country"> Country </label>
-        <select name="Country" id="Country">
-            <option value="Please select a Country"></option>  
-            <option value=" ">Afghanistan </option>
-            <option value=" "> Bahamas </option>
-            <option value=" "> Cameroon </option>
-            <option value=" "> Denmark </option>
-            <option value=" "> Egypt </option>
-            <option value=" "> Namibia </option>
-            <option value=" "> South Africa </option>
-        </select>
-    </div>
+            <div>
+                <label for="Country"> Country : </label>
+                <input type="Country" name="Country" id="Country" placeholder="Please select country" required>
+                <select name="Country" id="Country">
+                    <option value="Please select a Country"></option>
+                    <option value=" ">Afghanistan </option>
+                    <option value=" "> Bahamas </option>
+                    <option value=" "> Cameroon </option>
+                    <option value=" "> Denmark </option>
+                    <option value=" "> Egypt </option>
+                    <option value=" "> Namibia </option>
+                    <option value=" "> South Africa </option>
+                </select>
+            </div>
 
-<br>
+            <br>
 
-<div>
-    <label for="Zip Code"> Zip Code</label>
-    <input name="Zip Code" id="Zip Code" placeholder="Required, number only" required>
-</div>
+            <div>
+                <label for="Zip Code"> Zip Code : </label>
+                <input name="Zip Code" id="Zip Code" placeholder="Required, number only" required>
+            </div>
+            <br>
 
-<br>
+            <div>
+                <label for="tel"> Phone No. : </label>
+                <input type="tel" name="tel" id="tel" placeholder="Must be a valid number"
+                    pattern="^(\s*)?([-_():=+]?\d[-_():=+]?){10,14}(\s*)?$" required>
+            </div>
 
-<div>
-    <label for="Email"> Email </label>
-    <input name="Email" id="Email" placeholder="Required, a valid email" required>
-</div>
+            <br>
 
-<br>
+            <div>
+                <label for="email"> Email : </label>
+                <input type="email" name="email" id="email" placeholder="Must be a valid email addres" required>
+            </div>
 
-<div>
-    <input type="radio" name="Gender" value="Male" checked> Male
-</div>
+            <br>
 
-<br>
+            <form>
+                <input type="radio" name="sex" value="Male" checked> Male
+                <br>
+                <input type="radio" name="sex" value="Female" checked> Female
+            </form>
 
-<div>
-    <input type="radio" name="Gender" value="Female" checked> Female
-</div>
+            <br>
 
-    </form>
+            <div>
+                <input type="submit" name="submit" id="submit" placeholder="required">
+            </div>
+
+
+
+
+            <footer>
+
+            </footer>
+
+
+
+
+            </div>
+
 
 
 </body>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 </html>
