@@ -1,14 +1,22 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,500&display=swap');
-
-*{
-    list-style: none;
-    margin: 0%;
-    padding: 0%;
-    box-sizing: border-box;
-    font-family: 'Montserrat' sans-serif;
+@keyframes form {
+    0%  {background-color: aqua;}
+    25% {background-color: yellow;}
+    50% {background-color: aliceblue;}
+    100% {background-color: aquamarine;}
 }
 
-body{
-    background: gray;
+div{
+    background-color: purple;
+    animation-name: form;
+    animation-duration: 5s;
+}
+
+input[placeholder], [placeholder], *[placeholder]{
+    color: blue !important;
+}
+
+::placeholder{ /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: red;
+    opacity: 1;
 }
 
