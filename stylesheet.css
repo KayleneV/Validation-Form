@@ -1,0 +1,49 @@
+input[placeholder], [placeholder], *[placeholder]{
+    color: blue !important;
+}
+
+::placeholder{ /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: red;
+    opacity: 1;
+}
+
+body{
+    background-color: aqua;
+}
+
+/* Selects any required <input> */
+input:required {
+    border: 1px dashed red;
+  }
+
+  /* Selects any optional <input> */
+input:optional {
+    border: 1px dashed black;
+  }
+
+  label {
+    display: block;
+    margin: 1px;
+    padding: 1px;
+  }
+  
+  .field {
+    margin: 1px;
+    padding: 1px;
+  }
+  
+  input:required {
+    border-color: #800000;
+    border-width: 3px;
+  }
+  
+  input:required:invalid {
+    border-color: #c00000;
+  }
+
+  .header{
+      text-align: center;
+
+  }
+
+
